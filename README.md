@@ -26,7 +26,7 @@ Prerequisites:
 
 
 After download LIUM, UBM and other models, put them in this folder, you should have following file strutue, then just  $./go.sh, output segmetns will be in test_out folder 
-
+```
 ./
 |-- LIUM_SpkDiarization-8.4.1.jar
 |-- go.sh
@@ -47,7 +47,7 @@ After download LIUM, UBM and other models, put them in this folder, you should h
 |   `-- t001.wav
 `-- ubm
     `-- wld.gmm
-
+```
 
 Details are in ilp_diarization2.sh
 
