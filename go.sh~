@@ -1,0 +1,21 @@
+inputfolder=./test_wav 
+outputfolder=./test_out 
+
+mkdir -p $outputfolder
+
+for file in $inputfolder/*.wav
+do
+ echo "Processing $file"
+ ./ilp_diarization2.sh $file 120 $outputfolder
+done
+
+
+rttmoutputfolder=./seg2rttm/seg_raw
+rm -rf ./seg2rttm/seg_*
+mkdir -p $rttmoutputfolder
+cp ./test_out/*/*.120.seg ./seg2rttm/seg_raw
+cd ./seg2rttm
+./seg2rttm.sh
+cd ..
+echo output in ./seg2rttm/ouput for detail please check ./seg2rttm/readme
+
