@@ -25,7 +25,7 @@ Prerequisites:
     http://www-lium.univ-lemans.fr/diarization/lib/exe/fetch.php/data_ilp.tgz
 
 
-After download LIUM, UBM and other models, put them in this folder, you should have following file strutue, then just  $./go.sh, output segmetns will be in test_out folder 
+After download LIUM, UBM and other models, put them in this folder, you should have following file structure, then just  $./go.sh, output segmetns will be in test_out folder 
 ```
 ./
 |-- LIUM_SpkDiarization-8.4.1.jar
