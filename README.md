@@ -19,7 +19,11 @@ Download
 Prerequisites:
 
   1)glpk for ILP clustering:
+  
+    sudo apt-get install glpk
+    
     http://www.gnu.org/software/glpk/
+    
 
   2)UBM and models
     http://www-lium.univ-lemans.fr/diarization/lib/exe/fetch.php/data_ilp.tgz
