@@ -22,6 +22,10 @@ Prerequisites:
   
     sudo apt-get install glpk
     
+    or
+    
+    sudo apt-get install glpk-utils
+    
     http://www.gnu.org/software/glpk/
     
 
