@@ -1,0 +1,9 @@
+;; cluster S0 
+t001 1 0 641 F S U S0
+t001 1 1907 351 F S U S0
+;; cluster S1 
+t001 1 641 437 F S U S1
+t001 1 1677 230 F S U S1
+t001 1 2258 349 F S U S1
+;; cluster S2 
+t001 1 1078 586 M S U S2

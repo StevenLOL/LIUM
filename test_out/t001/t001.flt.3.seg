@@ -1,0 +1,9 @@
+;; cluster S0 
+t001 1 0 641 U U U S0
+t001 1 1907 351 U U U S0
+;; cluster S1 
+t001 1 641 437 U U U S1
+t001 1 1677 230 U U U S1
+t001 1 2258 349 U U U S1
+;; cluster S2 
+t001 1 1078 586 U U U S2

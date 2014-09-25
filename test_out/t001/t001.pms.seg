@@ -1,0 +1,18 @@
+;; cluster f0 
+t001 1 11 356 U U U f0 [ initial = 0 ]
+t001 1 399 244 U U U f0 [ initial = 0 ]
+t001 1 1925 189 U U U f0 [ initial = 0 ]
+;; cluster fx 
+t001 1 1080 559 U U U fx [ initial = 0 ]
+t001 1 2200 44 U U U fx [ initial = 0 ]
+;; cluster iS 
+t001 1 0 11 U U U iS [ initial = 0 ]
+t001 1 367 32 U U U iS [ initial = 0 ]
+t001 1 643 433 U U U iS [ initial = 0 ]
+t001 1 1702 223 U U U iS [ initial = 0 ]
+t001 1 2244 364 U U U iS [ initial = 0 ]
+;; cluster j 
+t001 1 1639 63 U U U j [ initial = 0 ]
+;; cluster p 
+t001 1 1076 4 U U U p [ initial = 0 ]
+t001 1 2114 86 U U U p [ initial = 0 ]

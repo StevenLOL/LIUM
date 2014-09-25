@@ -1,0 +1,11 @@
+Minimize
+problem : elementCenter_S0_S0 + elementCenter_S1_S1 + elementCenter_S2_S2
+Subject To
+S0: elementCenter_S0_S0 = 1 
+S1: elementCenter_S1_S1 = 1 
+S2: elementCenter_S2_S2 = 1 
+Binary
+elementCenter_S0_S0
+elementCenter_S1_S1
+elementCenter_S2_S2
+End
