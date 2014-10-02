@@ -80,4 +80,4 @@ java -Xmx$mem -classpath "$LOCALCLASSPATH" fr.lium.spkDiarization.programs.MScor
 
 echo ILP Clustering
 c=$2
-java -Xmx$mem  -cp $LOCALCLASSPATH fr.lium.spkDiarization.programs.ivector.ILPClustering --cMethod=es_iv --ilpThr=$c --help --sInputMask=$gseg --sOutputMask=./$datadir/%s.ev_is.$c.seg --fInputMask=$features --fInputDesc=$fDescLast --tInputMask=./ubm/wld.gmm --nEFRMask=mat/wld.efn.xml --ilpGLPSolProgram=glpsol1 --nMahanalobisCovarianceMask=./mat/wld.mahanalobis.mat --tvTotalVariabilityMatrixMask=./mat/wld.tv.mat --ilpOutputProblemMask=./$datadir/%s.ilp.problem.$c.txt --ilpOutputSolutionMask=./$datadir/%s.ilp.solution.$c.txt $show
+java -Xmx$mem  -cp $LOCALCLASSPATH fr.lium.spkDiarization.programs.ivector.ILPClustering --cMethod=es_iv --ilpThr=$c --help --sInputMask=$gseg --sOutputMask=./$datadir/%s.ev_is.$c.seg --fInputMask=$features --fInputDesc=$fDescLast --tInputMask=./ubm/wld.gmm --nEFRMask=mat/wld.efn.xml --ilpGLPSolProgram=glpsol --nMahanalobisCovarianceMask=./mat/wld.mahanalobis.mat --tvTotalVariabilityMatrixMask=./mat/wld.tv.mat --ilpOutputProblemMask=./$datadir/%s.ilp.problem.$c.txt --ilpOutputSolutionMask=./$datadir/%s.ilp.solution.$c.txt $show
