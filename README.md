@@ -60,6 +60,9 @@ After download LIUM, UBM and other models, put them in this folder, you should h
 Details are in ilp_diarization2.sh
 
 
+Known issues:
+
+1) https://github.com/StevenLOL/LIUM/issues/1  LIUM works fine with JDK 1.7 but has some problem with JDK 1.8
 
 
 
