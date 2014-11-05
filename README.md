@@ -65,4 +65,13 @@ Known issues:
 1) https://github.com/StevenLOL/LIUM/issues/1  LIUM works fine with JDK 1.7 but has some problem with JDK 1.8
 
 
+#Update:
+
+##LIUM=Laboratoire d'Informatique de l'Université du MaineLaboratoire d'Informatique de l'Université du Maine
+
+They have CSLM: Continuous Space Language Model toolkit
+
+http://www-lium.univ-lemans.fr/cslm/
+
+
 
