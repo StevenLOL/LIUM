@@ -16,6 +16,10 @@ Homepage:
 Download
   http://www-lium.univ-lemans.fr/diarization/doku.php/download
 
+Related project:
+  https://github.com/bbcrd/diarize-jruby
+
+
 Prerequisites:
 
   1)glpk for ILP clustering:
