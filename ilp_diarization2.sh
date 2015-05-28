@@ -41,7 +41,7 @@ fDescCLR="sphinx,1:3:2:0:0:0,13,1:1:300:4"
 echo compute the MFCC
 java -Xmx$mem -classpath "$LOCALCLASSPATH" fr.lium.spkDiarization.tools.Wave2FeatureSet --help --fInputMask=$audio --fInputDesc=$fDescStart --fOutputMask=$features --fOutputDesc=$fDesc $show
 
-echo chech the MFCC 
+echo check the MFCC 
 java -Xmx$mem -classpath "$LOCALCLASSPATH" fr.lium.spkDiarization.programs.MSegInit   --help --fInputMask=$features --fInputDesc=$fDesc --sInputMask=$uem --sOutputMask=./$datadir/%s.i.seg  $show
 
 echo GLR based segmentation, make small segments
