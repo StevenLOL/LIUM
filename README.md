@@ -66,15 +66,16 @@ Known issues:
 
 1) https://github.com/StevenLOL/LIUM/issues/1  LIUM works fine with JDK 1.7 but has some problem with JDK 1.8
 
+Please check out [this project](https://github.com/ahmetaa/lium-diarization) ,it works with JDK1.8 .
 
-##Update:
+## Update:
 
-###LIUM=Laboratoire d'Informatique de l'Université du MaineLaboratoire d'Informatique de l'Université du Maine
-
-They have CSLM: Continuous Space Language Model toolkit
-
-http://www-lium.univ-lemans.fr/cslm/
+### LIUM=Laboratoire d'Informatique de l'Université du MaineLaboratoire d'Informatique de l'Université du Maine
 
 
-###Speaker diarization
+
+http://www-lium.univ-lemans.fr/
+
+
+### Speaker diarization
 Speaker diarization is one research topic in audio/speech processing. It is refer to unsupervised cluster audio sequences into speaker groups.
